@@ -9,7 +9,7 @@ if (environment.production) {
   enableProdMode();
 }
 let initOptions = {
-  url: 'https://mibalogin-dev.gcba.gob.ar/auth/', realm: 'miba', clientId: 'test-client-web',clientSecret:'ff5a2d76-a2dc-4f3a-808d-ae648b22c092', onLoad: 'login-required'
+  url: 'https://localhost:8080/auth/', realm: 'prueba', clientId: 'test-client-ionic',clientSecret:'ff5a2d76-a2dc-4f3a-808d-ae648b22c092', onLoad: 'login-required'
 }
 
 let keycloak = Keycloak(initOptions);
